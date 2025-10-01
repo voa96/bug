@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-width: 100vh;
+    text-align:  center;
+}
+.imge img{
+    width: 440px;
+    height: 220px;
+transition: 1s;
+    color: #000;
+    font-weight: bold;
+    border-radius: 120px;
+    border: solid black;
+    box-shadow: 0px 0px 10px 10px #000000;
+} 
+.imge img:hover{
+    transform: scale(4,1.1);
+    z-index: -1;    
+}
+.hero_container{
+    padding: 50px 10px 10px 10px;
+    position: relative;
+    z-index: 1;
+    margin-top: 40px;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.diagram_html{
+    float: left;
+    position: relative;
+    border: solid black;
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 100px;
+}
+.diagram_html::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: rebeccapurple;
+    width: 25px;
+    height: 100px;
+}
+.diagram_html h4{
+    position: absolute;
+    top: 18px;
+    left: 1px;
+    z-index: 101;
+}
+.diagram_html h2{
+    position: absolute;
+    top: 14px;
+    left: 30px;
+    z-index: 101;
+}
+.diagram_css{
+    margin: 0, auto;
+    float: right;
+    position: relative;
+    border: solid black;
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 100px;
+    
+}
+.diagram_css::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: rebeccapurple;
+    width: 75px;
+    height: 100px;
+}
+.diagram_css span{
+    position: absolute;
+    top: 18px;
+    left: 20px;
+    z-index: 101;
+}
+.diagram_css h2{
+    position: absolute;
+    top: 14px;
+    left: 90px;
+    z-index: 101;
+}
+.container1 {
+    width: 1100px;
+    margin: 0 auto;
+
+}
